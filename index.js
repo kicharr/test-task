@@ -37,3 +37,12 @@ function showContent2() {
 function showContent3() {
     !slide3.style.cssText || slide3.style.cssText === 'display: none;' ? slide3.style.cssText = 'display: block;' : slide3.style.cssText = 'display: none;'
 }
+
+
+
+let menuBtn = document.querySelector('.menu-btn');
+let menu = document.querySelector('.menu');
+menuBtn.addEventListener('click', function () {
+    menuBtn.classList.toggle('active');
+    menu.classList.toggle('active');
+})
