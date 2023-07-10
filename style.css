@@ -148,7 +148,7 @@ body {
 
     color: var(--main-color);
     text-align: center;
-   
+
     font-size: 16px;
     padding: 12px 67px;
     font-weight: 600;
@@ -398,5 +398,12 @@ body {
 
     body {
         background-size: 100% 484px;
+    }
+
+    .social-link__wrapper {
+        margin: 32px px auto 40px;
+        padding: 0 26px;
+        display: flex;
+        justify-content: space-between;
     }
 }
